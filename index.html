@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Nabila (si Mhasiswa Pemberani) Sahad</title>
+    <style>
+        :root {
+            --bg-color: #1b3557;
+            --card-bg: #2e55bf;
+            --text-main: #f8f8f8;
+            --text-muted: #f9f9f9;
+            --accent: #ffffff;
+            --accent-hover: #000000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Hero Section */
+        header {
+            text-align: center;
+            padding: 50px 0;
+            border-bottom: 1px solid #000000;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: var(--accent);
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--bg-color);
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+        }
+
+        /* Sections */
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid #080808;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--text-main);
+        }
+
+        /* Skills Tags */
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background-color: var(--card-bg);
+            color: var(--accent);
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            border: 1px solid #f1f4f8;
+        }
+
+        /* Project Cards */
+        .project-card {
+            background-color: var(--card-bg);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #eaedf1;
+        }
+
+        .project-card h3 {
+            margin-bottom: 8px;
+            color: var(--accent);
+        }
+
+        .project-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+
+        .project-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer / Contact */
+        footer {
+            text-align: center;
+            padding: 40px 0 20px 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 1. Hero Section -->
+        <header>
+            <h1>WELCOME TO MY PORTOFOLIO</h1>
+            <p>Web ini dirancang untuk menyelesaikan projek dari mata kuliah Pengantar Teknolohi Informasi yakni portofolio diri, maka dari itu silahkan baca portofolio yang sudah saya buat dan susun, mari berkenalan dengan Saya Mahasiswa pemberani aka Nabila Sahad. Enjoy your time</p>
+            <a href="#about" class="btn">Let's Start</a>
+        </header>
+
+        <!-- 2. Tentang Saya -->
+        <section id="about">
+            <h2>Soal diri Saya</h2>
+            <div style="text-align: center; margin-bottom: 20px;">
+                <img src="c:\Users\dbluk\Downloads\foto saya.jpeg" alt="Foto Nabila Sahad" style="width: 350px; height: 220px; object-fit: cover; border-radius: 8px; border: 3px solid var(--accent);">
+            </div>
+            <p>
+                Perkenalkan Nama Saya Nabila Sahad lahir di Tangerang, 23 September 2009 (17 Tahun). Lulusan TKJ Tahun 2025 dan sekarang merupakan salah satu mahasiswa/i Teknik Informatika Universitas Pamulang yang sedang fokus mendalami pemrograman, struktur data, logika algoritma, serta pengembangan diri dalam bidang ilmu Komputer, Digital Design, dan Editing. Saya pribadi merukapan orang yang bertanggung jawab, disiplin, jujur, dan memiliki tekad untuk terus belajar dan berkembang, pada saat ini saya sedikit menguasai bidang editing, serta tengah dalam tahap pembelajaran lebih lanjut terkait beberapa bahasa pemrograman (HTML & CSS, Python, C++).
+            </p>
+        </section>
+
+        <!-- 3. Pendidikan -->
+        <section id="skills">
+            <h2>Riwayat Pendidikan</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">SDN BLUKBUK II 2014-2019</span>
+                <span class="skill-tag">MTS.SA RIYADDLUL JANNAH 2019-2022</span>
+                <span class="skill-tag">SMK JAYA BUANA (TEKNIK KOMPUTER JARINGAN) 2022-2025</span>
+                <span class="skill-tag">UNIVERSITAS PAMULANG (TEKNIK INFORMATIKA) Sekarang</span>
+            </div>
+        </section>
+
+        <!-- 4. Keahlian -->
+        <section id="skills">
+            <h2>Keahlian & Keterampilan</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">HTML & CSS</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">ibisPaint</span>
+                <span class="skill-tag">Alight Motion</span>
+                <span class="skill-tag">Capcut</span>
+                <span class="skill-tag">Canva</span>
+                <span class="skill-tag">Penggunaan Ms.Word</span>
+                <span class="skill-tag">Penggunaan Ms.Exel</span>
+            </div>
+        </section>
+
+        <!-- 5. Proyek -->
+        <section id="projects">
+            <h2>Proyek Pilihan</h2>
+            
+            <div class="project-card">
+                <h3>Website Portofilio Sederhana</h3>
+                <p>Program portofolio berbasis web menggunakan HTML dan CSS murni untuk melatih logika dasar pemrograman.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Program Perhitungan C++ dan Python Sederhana</h3>
+                <p>Sistem atau program yang memuat pertitungan belanja sederhana menggunakan cmath, if-else dan elif.</p>
+            </div>
+        </section>
+
+        <!-- 6. Organisasi -->
+        <section id="projects">
+            <h2>Pengalaman Organisasi</h2>
+            
+            <div class="skills-grid">
+                <span class="skill-tag">Kepengurusan Organisasi</span>
+                <p>Bertanggung jawab sebagai Ketua Organisasi (Ekstrakulikuler Karate) selama 2 tahun, dimana ikut melatih anggota (Asisten Pelatih), mendata anggota pada saat terdapat kegiatan ujian kenaikan sabuk, bertanggung jawab untuk mengkoordinasi dan mengawasi anggota yang mengikuti ujian, serta menjadi atlet sekaligus mentor atlet saat perlombaan.</p>
+            </div>
+        </section>
+
+        <!-- 7. Prestasi -->
+        <section id="projects">
+            <h2>Prestasi</h2>
+            
+            <div class="skills-grid">
+                <span class="skill-tag">Juara 1 lomba karate kata perorangan putri tingkat Nasional 2023</span>
+                <span class="skill-tag">Juara 1 lomba karate kata perorangan putri tingkat Provinsi 2025</span>
+                <span class="skill-tag">Juara 3 lomba karate kata perorangan putri tingkat Provinsi 2025</span>
+            </div>
+        </selection>
+
+        <!-- 8. Kontak -->
+        <section id="contact">
+            <h2>Kontak</h2>
+            <p style="color: var(--text-muted); margin-bottom: 15px;">Mau ngobrol, sharing ilmu,, atau belajar bareng? Hubungi saya di:</p>
+            <p>No Telp: <strong>085770983912</strong></p>
+            <p>Email: <strong>nabilasahad16@gmail.com</strong></p>
+            <p>Telegram: <strong>@abilawaktutlh0</strong></p>
+        </section>
+
+        <footer>
+            <p>Portofilio Nabila Sahad. 2026.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
